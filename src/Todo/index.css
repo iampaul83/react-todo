@@ -1,0 +1,41 @@
+.Todo-App {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.Todo-App input.Add-Todo {
+    width: 100%;
+    margin: 20px 0;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.Todo-App input.Add-Todo:focus {
+    outline: none;
+}
+
+.Todo {
+    position: relative;
+    padding: 5px 0;
+}
+
+.Todo.done {
+    text-decoration: line-through;
+}
+
+.Todo > span {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+.Todo:hover {
+    background-color: rgba(0,0,0,.1);
+}
+.Todo:hover > span {
+    display: inline;
+    margin-right: 5px;
+}
