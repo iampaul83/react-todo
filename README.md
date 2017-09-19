@@ -1,6 +1,15 @@
 # Scripts
 
 ```bash
+# clone
+https://github.com/iampaul83/react-todo.git
+
+# cd
+cd react-todo
+
+# install
+npm install
+
 # dev
 npm run start
 
